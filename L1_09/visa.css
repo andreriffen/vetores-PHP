@@ -1,0 +1,12 @@
+strong {
+    color: rgb(240, 65, 1)!important;
+    font-weight: bolder;
+}
+b{
+    font-weight: bold;
+}
+span{
+    color: rgb(96, 156, 0);
+    font-weight: bold;
+    font-size: large;
+}
