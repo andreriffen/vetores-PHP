@@ -48,7 +48,13 @@
   $menorIdade = min($vetor);
 
   //descobrir quem está associado a esta menor idade
-  $pessoaMaisNova = array_search($menorIdade, $vetor);
+  $pessoaMaisNova = "";
+  foreach ($vetor as $nomePessoa => $idadePessoa) {
+    if ($idadePessoa === $menorIdade) {
+        $pessoaMaisNova = $nomePessoa;
+        break;
+    }
+}
 
   echo "<p>Pessoa mais nova: <strong>$pessoaMaisNova</strong>.<br>
   Idade da pessoa mais nova: <strong>$menorIdade</strong> anos.</p><br><br>";
