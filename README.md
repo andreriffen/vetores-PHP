@@ -1,6 +1,6 @@
 # VETORES EM PHP
 
-![https://github.com/andreriffen/vetores-PHP](karate-kata.gif)
+![https://github.com/andreriffen/vetores-PHP/karate-kata.gif](karate-kata.gif)
 
         ┌─────────────────────────────────────────┐
         └─────────────────────────────────────────┘
