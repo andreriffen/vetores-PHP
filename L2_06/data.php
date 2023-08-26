@@ -43,18 +43,7 @@
   };
   echo "</table> <br>";
 
-  
-  //descobrir a menor idade no vetor
-  $menorIdade = min($vetor);
-
-  //descobrir quem está associado a esta menor idade
-  $pessoaMaisNova = "";
-  foreach ($vetor as $nomePessoa => $idadePessoa) {
-    if ($idadePessoa === $menorIdade) {
-        $pessoaMaisNova = $nomePessoa;
-        break;
-    }
-}
+  ksort($vetor);
 
   echo "<p>Pessoa mais nova: <strong>$pessoaMaisNova</strong>.<br>
   Idade da pessoa mais nova: <strong>$menorIdade</strong> anos.</p><br><br>";
