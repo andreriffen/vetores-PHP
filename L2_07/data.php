@@ -26,32 +26,25 @@
             $pessoa2 => $idade2,
             $pessoa3 => $idade3 ];
   
-  //cabeçalho da tabela
-  echo "<table>
-  <caption> Indice associativo nomes + idade </caption>
-  <tr>
-   <th> Nome </th>
-   <th> Idade </th>
-  </tr>";
-
-  //conteúdo da tabela
-  foreach($vetor as $nomePessoa => $idadePessoa){
-    echo "<tr>
-          <td> $nomePessoa </td>
-          <td> $idadePessoa </td>
-         </tr>";
-  };
-  echo "</table> <br>";
-
+// Ordenar o vetor em ordem alfabética crescente pelo nome da pessoa
+ksort($vetor);
   
-  //descobrir a menor idade no vetor
-  $menorIdade = min($vetor);
+// Cabeçalho da tabela
+echo "<table>
+<caption> Indice associativo A - Z </caption>
+<tr>
+ <th> Nome </th>
+ <th> Idade </th>
+</tr>";
 
-  //descobrir quem está associado a esta menor idade
-  $pessoaMaisNova = array_search($menorIdade, $vetor);
-
-  echo "<p>Pessoa mais nova: <strong>$pessoaMaisNova</strong>.<br>
-  Idade da pessoa mais nova: <strong>$menorIdade</strong> anos.</p><br><br>";
+// Conteúdo da tabela
+foreach($vetor as $nomePessoa => $idadePessoa){
+  echo "<tr>
+        <td> $nomePessoa </td>
+        <td> $idadePessoa </td>
+       </tr>";
+};
+echo "</table> <br>";
 
 ?>
 
