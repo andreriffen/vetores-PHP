@@ -1,4 +1,4 @@
-# VETORES EM PHP
+# BASICO DO PHP
 
 ![https://github.com/andreriffen/vetores-PHP/karate-kata.gif](karate-kata.gif)
 
@@ -23,10 +23,11 @@
         │ 🎓 ALUNO: ANDRE GUILHERME               │
         │           BARRETO DE FARIAS             │
         └─────────────────────────────────────────┘
-        ┌───────────────────┐
-        │  VETORES EM PHP   │
-        └───────────────────┘
-# Enunciados
+        ┌─────────────────────┐
+        │  FUNDAMENTOS EM PHP │
+        └─────────────────────┘
+
+## Enunciados
 
 ## 1
 
@@ -44,8 +45,10 @@ Maria quer viajar até a casa de sua irmã, de carro, e gostaria de saber, antec
 
 Em seguida:
 
-- a) Faça com que o código em PHP armazene e manipule o preço da gasolina como uma constante;
-- b) Faça com que a aplicação mostre ao usuário o gasto que o mesmo terá com a viagem; c) Faça com que a aplicação mostre quantos litros de combustível serão consumidos na viagem; d) Faça com que a aplicação mostre o preço pago por litro de combustível.
+- Faça com que o código em PHP armazene e manipule o preço da gasolina como uma constante;
+- Faça com que a aplicação mostre ao usuário o gasto que o mesmo terá com a viagem;
+- Faça com que a aplicação mostre quantos litros de combustível serão consumidos na viagem;
+- Faça com que a aplicação mostre o preço pago por litro de combustível.
 
 ## 3
 
@@ -116,3 +119,90 @@ Determinada rede de farmácias de nossa cidade concede um desconto na compra de 
 Além disso, se o pagamento for feito por meio de cartão de fidelidade da rede, tem-se um desconto adicional de mais 5% em relação aos descontos anteriores, independentemente da idade, isto é: cliente com menos de 55 anos terá desconto de 5%; cliente entre 55 anos e 70 anos, que pagou com cartão, terá um desconto total sobre a compra de 10%. Cliente acima de 70 anos, pagando com cartão, terá desconto de 12%. Use o elemento checkbox para representar esta informação no formulário.
 
 Crie uma aplicação web, por meio da linguagem PHP, que permita a um vendedor fornecer, em um formulário HTML5, as informações acima sobre a compra de determinado cliente. Em seguida, o script em PHP deverá mostrar o valor final da compra a ser pago pelo cliente. Não se esqueça de testar se um botão de rádio relacionado à faixa etária do cliente foi marcado. Se isto não ocorreu, mostre uma mensagem adequada ao usuário e encerre a aplicação web.
+
+---
+
+### Mais Exercícios +
+
+### Tratamento de vetores na linguagem PHP
+
+![https://github.com/andreriffen/vetores-PHP/karate-kata.gif](karate-kata.gif)
+
+        ┌─────────────────────────────────────────┐
+        └─────────────────────────────────────────┘
+        │   🔴 🟩🟩  IFSC - INSTITUTO FEDERAL    │
+        │   🟩 🟩    DE EDUCAÇÃO  CIENCIA E      │
+        │   🟩 🟩🟩  TECNOLOGIA                  │
+        │   🟩 🟩    CÂMPUS FDRIANOPOLS          │
+        │                                         │
+        │ Prof. Herval Daminelli                  │
+        │ Exercicios de aprendizagem - Fundamentos│
+        │ da Linguagem PHP e Utilização de PHP    │
+        │ com Formulários HTML5 e CSS3.           │
+        │                                         │
+        │ Resolva as questões a seguir. Havendo   │
+        │ dúvidas, entre em contato.              │
+        │                                         │
+        │ > https://hdam.pro.br/                  │
+        └─────────────────────────────────────────┘
+        ┌─────────────────────────────────────────┐
+        │ 🎓 ALUNO: ANDRE GUILHERME               │
+        │           BARRETO DE FARIAS             │
+        └─────────────────────────────────────────┘
+        ┌─────────────────┐
+        │  VETORES EM PHP │
+        └─────────────────┘
+
+---
+
+### L2 #01
+
+Elabore um script em PHP que receba, de um formulário, a nota de cada aluno na primeira avaliação de Programação Web. Cadastre a nota de três alunos. O script em PHP deverá:
+
+- Armazenar estas notas em um vetor de índice numérico;
+- Calcular e mostrar a média das notas por meio de uma função que execute esta tarefa manipulando diretamente os dados do vetor.
+
+## L2 #02
+
+Elabore um script em PHP que receba, de um formulário, o nome e a nota de cada aluno na primeira avaliação de Programação Web. Cadastre os dados de três alunos. O script em PHP deverá:
+
+- Armazenar estas notas em um vetor de índice associativo, usando o nome do aluno como índice;
+- Mostrar, na página web, no formato tabular, os dados de cada aluno;
+- Mostrar, na página web, o nome e a nota do aluno com a maior nota dentre os cadastrados.
+
+## L2 #03
+
+Elabore um script em PHP que receba, de um formulário, o nome e a nota de cada aluno na primeira avaliação de Programação Web. Cadastre os dados de três alunos. O script em PHP deverá:
+
+- Armazenar estas notas em um vetor de índice associativo, usando o nome do aluno como índice;
+- Ordenar o vetor, da maior nota para a menor nota (decrescentemente);
+- Mostrar, na página web, no formato tabular, os dados de cada aluno;
+
+## L2 #04
+
+Criar uma aplicação web simulando um carrinho de compras simplificado. Em um formulário, o cliente pode escolher até três produtos quaisquer, por meio de elementos checkbox. Em seguida, um script em PHP deverá cadastrar, em um vetor de índice associativo, o preço de cada mercadoria a ser adquirida.
+
+Use o nome da mercadoria de cada checkbox como índice associativo deste vetor. Finalmente, o script em PHP deverá mostrar na página web o valor final da compra decorrente dos produtos adquiridos pelo cliente no formulário.
+
+## L2 #05
+
+Elabore um script em PHP que receba, de um formulário, idade de três pessoas quaisquer. O script em PHP deverá:
+
+- Armazenar estas idades em um vetor de índice numérico;
+- Calcular e mostrar a média das idades por meio de uma função que execute esta tarefa manipulando diretamente os dados do vetor.
+
+## L2 #06
+
+Elabore um script em PHP que receba, de um formulário, o nome e a idade de três pessoas quaisquer. O script em PHP deverá:
+
+- Armazenar estas idades em um vetor de índice associativo, usando o nome da pessoa como índice;
+- Mostrar, na página web, no formato tabular, os dados de cada pessoa;
+- Mostrar, na página web, o nome e a idade da pessoa mais nova cadastrada.
+
+## L2 #07
+
+Elabore um script em PHP que receba, de um formulário, o nome e a idade de três pessoas quaisquer. O script em PHP deverá:
+
+- Armazenar estas idades em um vetor de índice associativo, usando o nome da pessoa como índice;
+- Ordenar o vetor, por ordem alfabética crescente (de A até Z) pelo nome da pessoa;
+- Mostrar, na página web, no formato tabular, os dados de cada pessoa cadastrada;
