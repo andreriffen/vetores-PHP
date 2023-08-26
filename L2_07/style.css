@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto+Condensed&display=swap');
+
+body {
+ font-family: "Roboto Condensed";
+ margin: 0;
+}
+
+h1 {
+ margin: 0;
+ border-bottom: 1px solid #444444;
+ margin-bottom: 50px;
+ text-align: center;
+ background-color: rgb(230, 230, 230);
+ text-shadow: 1px 1px rgb(255, 255, 255);
+ box-shadow: 0 0 5px 5px rgb(40, 40, 40);
+}
+
+fieldset {
+ width: 50%;
+ background-color: rgb(240, 240, 240);
+ margin: auto; /*centralização automática*/
+ margin-bottom: 30px;
+}
+
+legend {
+ margin: auto;
+}
+
+label.alinha {
+ width: 200px;
+ display: inline-block; /*esta propriedade permite que apliquemos um alinhamento especial dos labels em relação a suas caixas de texto*/
+ text-align: right;
+ margin-bottom: 10px;
+}
+
+input#maior {
+ width: 270px;
+}
+
+button {
+ height: 50px;
+ font-family: "Edu SA Beginner";
+ font-size: 20px;
+ font-weight: bold; /*negrito*/
+ margin: auto;
+ display: block; /*converter botão de inline para bloco, para a centralização automática funcionar*/
+ margin-top: 30px;
+}
+
+input {
+ font-family: "Edu SA Beginner";
+ font-size: 16px;
+}
+
+p {
+ border: 1px solid #000;
+ width: 50%;
+ text-align: center;
+ box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.5);
+ margin: auto;
+}
+
+span {
+ color: rgb(50,50,50);
+ font-style: italic; /*itálico na fonte*/
+}
+
+table {
+ width: 50%;
+ border: 1px solid #fff;
+ background: rgba(50, 50, 50, 0.1);
+ border-spacing: 0;
+ margin: 30px auto;
+}
+
+td, th {
+ border: 1px solid #fff;
+}
+
+th {
+ background-color: rgba(209, 224, 209, 0.7);
+}
+
+td {
+ text-align: center;
+}
